@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/Circe-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/Circe-Bold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/Circe-ExtraBold.woff") format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circe';
+  src: url("../fonts/Circe-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url("../fonts/MullerBold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url("../fonts/MullerLight.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url("../fonts/MullerRegular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ALS Rubl';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/rouble.woff") format('woff');
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  color: #3b4356;
+  background: #fff;
+  font-size: 10px;
+  font-family: 'Circe';
+}
+body {
+  font-size: 1.4rem;
+}
+html,
+body {
+  height: 100%;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+.image-field__inner {
+  display: block;
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+}
+.image-field .highlight {
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.image-field .highlight:hover,
+.image-field .highlight.hover {
+  opacity: 1;
+}
