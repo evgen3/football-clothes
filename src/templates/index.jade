@@ -3,3 +3,9 @@ extends parts/layout
 block content
   .clothes-image
     include parts/only-highlight.svg
+    .clothes-image__controls
+      a.clothes-image__button(
+        href= jsv
+        data-text='Показать названия категорий'
+        data-text-active='Скрыть названия категорий'
+      ) Показать названия категорий

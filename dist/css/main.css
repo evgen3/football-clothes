@@ -81,6 +81,9 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.clothes-image {
+  position: relative;
+}
 .clothes-image__inner {
   display: block;
   background-image: url("../images/background.jpg");
@@ -103,4 +106,27 @@ body {
 .clothes-image__caption.is-active {
   visibility: visible;
   opacity: 1;
+}
+.clothes-image__controls {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.clothes-image__button {
+  text-decoration: none;
+  color: inherit;
+  color: #fff;
+  border-bottom: 1px dotted;
+  font-weight: 700;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.clothes-image__button:hover {
+  border-color: rgba(255,255,255,0);
+}
+.clothes-image__button.is-active {
+  color: #000;
 }
