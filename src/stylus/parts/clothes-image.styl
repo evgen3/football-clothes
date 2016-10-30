@@ -1,0 +1,21 @@
+.clothes-image
+  &__inner
+    display block
+    background-image: url(../images/background.jpg)
+    background-size: 100%
+
+  &__highlight
+    opacity: 0
+    transition $AT
+
+    &.is-active
+      opacity: 1
+
+  &__caption
+    visibility: hidden
+    opacity: 0
+    transition $AT
+
+    &.is-active
+      visibility: visible
+      opacity: 1
