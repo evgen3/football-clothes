@@ -24,10 +24,11 @@
 
   &__controls
     position: absolute
-    top: 100px
+    top: 16%
     left: 0
     right: 0
     text-align: center
+    line-height: 0
 
   &__button
     link-reset()
@@ -35,10 +36,15 @@
     border-bottom 1px dotted
     font-weight: 700
     display: inline-block
-    transition $AT
+    transition $AT color
+    font-size: 1.1vw
+    line-height: 1
 
     &:hover
-      border-color rgba(white, 0)
-      
+      color: #f41224
+
     &.is-active
       color: black
+
+      &:hover
+        color: #f41224
