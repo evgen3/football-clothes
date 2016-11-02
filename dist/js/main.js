@@ -8,17 +8,7 @@ $(function () {
 		$button = $root.find('.clothes-image__button'),
 		visibleAll = false;
 
-	/*$elements.on('click', function (e) {
-		$elements.each(function () {
-			var $t = $(this);
-
-			$t.removeClass('hover');
-		});
-
-		this.classList.add('hover');
-	});*/
-
-	$highlight.on('mouseenter', function () {
+	$highlight.on('mouseenter click', function () {
 		var $t = $(this),
 			type = $t.data('type');
 
@@ -35,7 +25,7 @@ $(function () {
 	$highlight.on('mouseleave', function () {
 		if (visibleAll)
 			return;
-		
+
 		$highlight.removeClass('is-active');
 		$caption.removeClass('is-active');
 	});
