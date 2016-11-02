@@ -234,8 +234,10 @@
     // подсветка
     <image class="clothes-image__highlight" data-type="9" width="258" height="254" transform="matrix(.18 0 0 .18 424.08 89.64)"
            xlink:href="images/elements/only-highlight3.png"/>
-    <image class="clothes-image__highlight" data-type="1" width="362" height="971" transform="matrix(.18 0 0 .18 13.86 41.58)"
-           xlink:href="images/elements/only-highlight4.png"/>
+
+    <image class="clothes-image__highlight" data-type="1" width="373" height="1000" transform="matrix(.18 0 0 .18 12.86 38.58)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/elements/only-highlight4.png" />
+
+
     <image class="clothes-image__highlight" data-type="11" width="261" height="113" transform="matrix(.18 0 0 .18 19.26 196.02)"
            xlink:href="images/elements/only-highlight5.png"/>
     <image class="clothes-image__highlight" width="164" height="237" transform="matrix(.18 0 0 .18 305.46 115.2)"
